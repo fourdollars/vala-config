@@ -1,0 +1,13 @@
+Source: vala-config
+Section: admin
+Priority: optional
+Maintainer: Shih-Yuan Lee (FourDollars) <fourdollars@gmail.com>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.1
+
+Package: vala-config
+Architecture: all
+Depends: ${misc:Depends}
+Description: Some default configurations for Vala programming
+ Vim configuration for Vala programming.
+ Emacs configuration for Vala programming.
